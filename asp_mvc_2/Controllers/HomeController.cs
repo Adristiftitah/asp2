@@ -11,6 +11,7 @@ namespace asp_mvc_2.Controllers
 
         [Authorize]
         public ActionResult Welcome()
+
         {
             return View();
         }
